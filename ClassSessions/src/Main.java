@@ -17,6 +17,7 @@ public class Main {
         for (SoccerPlayer player : players) {
             System.out.println(player);
         }
+        //Test them if they are equal
 
         SoccerPlayer player1 = new SoccerPlayer("Lionel Messi", 36, "Inter Miami", 7);
         SoccerPlayer player2 = new SoccerPlayer("Cristiano Ronaldo", 39, "Al Nassr", 8);
