@@ -1,0 +1,19 @@
+class Man extends Person {
+
+    // Constructor
+    public Man(String name, int age) {
+        super(name, age);
+    }
+
+    // Implement abstract method
+    @Override
+    public void printNameandType() {
+        System.out.println(getName() + " is a man, Age: " + getAge());
+    }
+
+    @Override
+    public void work() {
+        System.out.println(getName() + " does not have a work.");
+    }
+
+}
