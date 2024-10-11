@@ -1,1 +1,1 @@
-Create SoccerPlayer class
+README File
