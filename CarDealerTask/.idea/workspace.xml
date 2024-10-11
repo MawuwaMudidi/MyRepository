@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="43a43fc5-8ec8-4f2e-9802-517a40cb280a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Coaching/src/Dealer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Coaching/src/Dealer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Coaching/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Coaching/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/215d8752-5881-4e7c-865b-7007aca09926_dealer-java.zip.926/dealer-java/DealerRunner.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/291ffbf3-5ed4-4af6-811c-b394963ba54b_dealer-java.zip.54b/dealer-java/Dealer.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/317ac3e1-d555-40ee-987b-e9b9cbcb192d_dealer-java.zip.92d/dealer-java/FourDoorBMW.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/5c4f907a-d284-4678-a46e-df9b4394a471_dealer-java.zip.471/dealer-java/DealerRunner.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/67952395-75a7-4ec1-b65c-4b130456315a_dealer-java.zip.15a/dealer-java/FourDoorCar.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/76315ec7-3597-4ca2-9f2e-c75499878301_dealer-java.zip.301/dealer-java/DealerMenu.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/8a029e0b-ac54-4c29-966c-1663681f78e5_dealer-java.zip.8e5/dealer-java/Dealers.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/a44923a9-9f9a-4ed1-8100-ffb7e8429f96_dealer-java.zip.f96/dealer-java/Car.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/be0ce0a0-3668-440a-8981-6da885b8f686_dealer-java.zip.686/dealer-java/Dealers.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/c39b1cb6-195f-4453-aa08-878f57194347_dealer-java.zip.347/dealer-java/TwoDoorHyundai.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2nCkBggwMRrMN4qZCujNyGXp1Zi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/USER/Desktop/java course/MyRepository/CarDealerTask/src/Main.java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="43a43fc5-8ec8-4f2e-9802-517a40cb280a" name="Changes" comment="" />
+      <created>1728484315408</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728484315408</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
