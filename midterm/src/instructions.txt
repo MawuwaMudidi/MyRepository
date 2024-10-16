@@ -1,0 +1,29 @@
+/*
+Course Interface:
+ Define a Course interface with the following methods:
+ double getCourseFee()
+ String getCourseStartTime()
+ String getCourseEndTime()
+ void printCourseDescription()
+ void printEnrolledStudents()
+ void enrollStudent(Student student)
+ void unenrollStudent(Student student)
+OnlineCourse and OnCampusCourse:
+ Create two abstract classes, OnlineCourse and OnCampusCourse,
+ that implement the Course interface. These classes should:
+ Implement the necessary methods from the Course interface.
+ Store basic course-related information such as course fee, timings,
+ and type (online or on-campus).
+ Maintain a unique list of enrolled students using a HashSet<Student>.
+Student Class:
+ Define a Student class to store basic student information such as name, age, and student ID.
+ Course Implementations:
+ Create two concrete classes:
+ ProgrammingCourse, which extends OnlineCourse.
+ MathematicsCourse, which extends OnCampusCourse.
+ Each class should define specific course-related fields and implement any abstract methods.
+Main Program:
+ In the main program, create 10 instances of the Student class and assign some of them to
+ either the ProgrammingCourse or  MathematicsCourse then test your interface functions one by
+  one
+*/
