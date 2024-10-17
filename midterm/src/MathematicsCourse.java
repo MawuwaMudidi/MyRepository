@@ -1,17 +1,12 @@
-import java.time.LocalTime;
-
 public class MathematicsCourse extends OnCampusCourse{
-    public MathematicsCourse(int courseFee, String courseType, double courseTiming, LocalTime courseStartTime, LocalTime courseEndTime) {
-        super(courseFee, courseType, courseTiming, courseStartTime, courseEndTime);
+
+    public MathematicsCourse(double courseFee, String courseStartTime, String courseEndTime) {
+        super(courseFee, courseStartTime, courseEndTime);
     }
 
     @Override
     public void printCourseDescription() {
-
-    }
-
-    @Override
-    public void printEnrolledStudents() {
-
+        System.out.println("The mathematics course is well designed " +
+                "to teach practical implementations of calculations and algebra");
     }
 }
