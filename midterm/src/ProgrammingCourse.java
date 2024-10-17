@@ -1,28 +1,11 @@
-import java.time.LocalTime;
-
 class ProgrammingCourse extends OnlineCourse {
-    public ProgrammingCourse(int courseFee, String courseType, double courseTiming, LocalTime courseStartTime, LocalTime courseEndTime) {
-        super(courseFee, courseType, courseTiming, courseStartTime, courseEndTime);
+
+    public ProgrammingCourse(double courseFee, String courseStartTime, String courseEndTime) {
+        super(courseFee, courseStartTime, courseEndTime);
     }
 
     @Override
     public void printCourseDescription() {
-
-    }
-
-    @Override
-    public void printEnrolledStudents() {
-
-    }
-
-    @Override
-    public void enrollStudent(Student student) {
-        super.enrollStudent(student);
-        System.out.println(student + "has successfully enrolled in programming course.");
-    }
-
-    @Override
-    public void unenrollStudent(Student student) {
-
+        System.out.println("The programming course is versatile and inclusive.");
     }
 }

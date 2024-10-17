@@ -2,8 +2,8 @@ import java.time.LocalTime;
 
 public interface Course {
     double getCourseFee();
-    LocalTime getCourseStartTime();
-    LocalTime getCourseEndTime();
+    String getCourseStartTime();
+    String getCourseEndTime();
     void printCourseDescription();
     void printEnrolledStudents();
     void enrollStudent(Student student);

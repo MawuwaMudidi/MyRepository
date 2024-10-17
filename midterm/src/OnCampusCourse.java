@@ -1,25 +1,16 @@
-import java.time.LocalTime;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
 
 abstract class OnCampusCourse implements Course{
-    private int courseFee;
-    private String courseType;
-    private double courseTiming;
-    private LocalTime courseStartTime;
-    private LocalTime courseEndTime;
-    private List<String> enrolledStudents;
-    private List<String> unenrolledStudents;
+    private double courseFee;
+    private String courseStartTime;
+    private String courseEndTime;
+    private HashSet<Student> enrolledStudents = new HashSet<>();
 
-    public OnCampusCourse(int courseFee, String courseType, double courseTiming,
-                          LocalTime courseStartTime, LocalTime courseEndTime){
+    public OnCampusCourse(double courseFee, String courseStartTime, String courseEndTime){
         this.courseFee = courseFee;
-        this.courseType = courseType;
-        this.courseTiming = courseTiming;
         this.courseStartTime = courseStartTime;
         this.courseEndTime = courseEndTime;
-        this.enrolledStudents = new ArrayList<>();
-        this.unenrolledStudents = new ArrayList<>();
+        this.enrolledStudents = new HashSet<>();
     }
 
     @Override
@@ -28,23 +19,30 @@ abstract class OnCampusCourse implements Course{
     }
 
     @Override
-    public LocalTime getCourseStartTime() {
+    public String getCourseStartTime() {
         return courseStartTime;
     }
 
     @Override
-    public LocalTime getCourseEndTime() {
+    public String getCourseEndTime() {
         return courseEndTime;
     }
 
     @Override
     public void enrollStudent(Student student) {
-        enrolledStudents.add(student.getName());
-        System.out.println(student.getName() + "has been enrolled");
+        enrolledStudents.add(student);
     }
 
     @Override
     public void unenrollStudent(Student student) {
+        enrolledStudents.remove(student);
+    }
 
+    @Override
+    public void printEnrolledStudents() {
+        System.out.println("---The enrolled Students oncampus---");
+        for(Student student : enrolledStudents){
+            System.out.println(student);
+        }
     }
 }
